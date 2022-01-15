@@ -33,6 +33,19 @@ function timer() {
   }, 1000);
 }
 
+function askNewQuestion() {
+  console.log("New question displayed");
+  var questionsArray = (document.getElementById("questions").innerHTML =
+    JSON.stringify(questions, null, +questionsArray));
+}
+// Display Questions function
+
+/* function startQuiz() {
+  Promptforquestions();
+}*/
+
+//  Quiz Questions Card
+
 var questionsArray = [
   {
     question: "Which built-in method returns the length of the string?",
