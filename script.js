@@ -19,6 +19,20 @@ function startQuiz() {
   askNewQuestion();
   answerButtons.removeAttribute("class");
 
+}
+
+function timer() {
+  var sec = 60;
+  var timer = setInterval(function () {
+    document.getElementById("time").innerHTML = "00:" + sec;
+    console.log("00:" + sec);
+    sec--;
+    if (sec < 0) {
+      clearInterval(timer);
+    }
+  }, 1000);
+}
+
 var questionsArray = [
   {
     question: "Which built-in method returns the length of the string?",
