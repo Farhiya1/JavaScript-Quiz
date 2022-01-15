@@ -59,11 +59,11 @@ To access this project the following links are provided:
 
 To access Github Repository
 
-1. https://github.com/Farhiya1/PasswordGenerator
+1. https://github.com/Farhiya1/JavaScript-Quiz
 
 To access Application deployed at live URL
 
-2. https://farhiya1.github.io/PasswordGenerator/
+2. https://farhiya1.github.io/JavaScript-Quiz/
 
 Screenshot changes made can be found in images
 Screenshot of deployed application (Currently incomplete application)
