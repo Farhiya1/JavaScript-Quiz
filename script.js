@@ -26,6 +26,7 @@ var questionsArray = [
   },
 
   console.log("questionsArray"),
+];
 startBtn.addEventListener("click", startQuiz);
 
 console.log("started");
