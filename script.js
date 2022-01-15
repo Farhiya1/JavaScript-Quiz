@@ -2,6 +2,15 @@
 // Targeting button to generate password
 var startBtn = document.querySelector("#btn");
 
+// Enviromental variables
+
+var questionsArray = document.getElementById("questions");
+var landingPage = document.getElementById("landing-page");
+var quizPage = document.getElementById("questionsBox");
+var answerButtons = document.getElementById("quiz-choices");
+//
+
+var questions = questionsArray;
 var questionsArray = [
   {
     question: "Which built-in method returns the length of the string?",
