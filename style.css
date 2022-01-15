@@ -98,7 +98,20 @@ ul {
   display: none;
 }
 
+/* Answers buttons for quiz */
+.choice-button {
+  text-align: left;
+  background-color: whitesmoke;
+  width: 17%;
+  font-size: 1.8rem;
+  color: black;
+  border: 1px solid color purple;
+  border-radius: 20px;
   margin: 7px 0;
+  padding: 1rem;
+  outline: none;
+}
+/* Horizontal line to break up text on landing page in card */
 hr {
   border-top: 10px solid plum;
 }
