@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
+}
+
+.container1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lavender;
+  padding: 6vh;
+}
+
+/* View Highscrores Link styling */
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  color: plum;
+}
+
+/* Timer styling */
+time {
+  min-width: 85px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Landing page card styling */
+.card1 {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  border-width: 1px;
+  box-shadow: rgba(128, 16, 122, 0.678) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+
+.mainpage-text {
+  flex: 50%;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: xx-large;
+  position: relative;
+  text-align: center;
+}
+
+/* Start quiz button styling */
+.Start-Button:hover {
+   border: 2px solid plum;
+  border-radius: 80px;
+  width: 10%;
+  background-color: pink;
+}
+
+/* List styling on landing page */
+.list1 {
+  list-style-type: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul {
+  border: 1px solid plum;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* This will hide the 1st landing and display the quiz page with the buttons*/
+.hide {
+  display: none;
+}
+
