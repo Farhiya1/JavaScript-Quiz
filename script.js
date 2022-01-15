@@ -11,6 +11,14 @@ var answerButtons = document.getElementById("quiz-choices");
 //
 
 var questions = questionsArray;
+function startQuiz() {
+  timer();
+  landingPage.setAttribute("class", "hide");
+  quizPage.removeAttribute("class");
+  quizPage.setAttribute("class", "hide");
+  askNewQuestion();
+  answerButtons.removeAttribute("class");
+
 var questionsArray = [
   {
     question: "Which built-in method returns the length of the string?",
